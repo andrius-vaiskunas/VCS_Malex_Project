@@ -1,0 +1,390 @@
+/*
+Theme Name: Malex_Theme
+Version: 1.0
+Author: Andrius Vaiskunas
+*/
+
+/* MAIN STYLING */
+html,
+body {
+  height: 100%;
+}
+
+* {
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  position: fixed;
+  width: 100%;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.card {
+  position: static;
+}
+
+.btn-group {
+  position: static;
+}
+
+/* ----- */
+
+/* STICKY HEADER AND FOOTER */
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+#footer {
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+  background-color: #292b2c;
+}
+/* ----- */
+
+/* MODIFIED HOVER READ ME BUTTON */
+.btn-mod .comment {
+  display: none;
+  color: #0f4c81;
+}
+
+.btn-mod:hover .replies {
+  display: none;
+  color: #0f4c81;
+}
+
+.btn-mod:hover .comment {
+  display: inline;
+  color: #0f4c81;
+}
+
+.comment {
+  text-decoration: underline;
+  color: #0f4c81;
+}
+
+.btn-mod {
+  color: #0f4c81;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+}
+/* ----- */
+
+/* NAVBAR HOVER COLOR */
+.nav-item a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: small;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-item a:hover {
+  color: gray !important;
+  margin-left: 20px;
+}
+
+.nav-icon:hover {
+  color: gray;
+  transition: 0.5s;
+  transform: scale(0.8);
+}
+/* ----- */
+
+/* CAROUSEL */
+#mainCarousel {
+  width: 600px;
+  margin: 0 auto 1rem auto;
+
+  --carousel-button-color: #170724;
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+    0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+#mainCarousel .carousel__slide {
+  width: 100%;
+  padding: 0;
+}
+
+#mainCarousel .carousel__button.is-prev {
+  left: -1.5rem;
+}
+
+#mainCarousel .carousel__button.is-next {
+  right: -1.5rem;
+}
+
+#mainCarousel .carousel__button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #a78bfa;
+}
+
+#thumbCarousel .carousel__slide {
+  opacity: 0.5;
+  padding: 0;
+  margin: 0.25rem;
+  width: 96px;
+  height: 64px;
+}
+
+#thumbCarousel .carousel__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#thumbCarousel .carousel__slide.is-nav-selected {
+  opacity: 1;
+}
+/* ----- */
+
+/* ABOUT US FLEXBOX CONTAINER */
+.flexbox-container {
+  padding-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flexbox-item {
+  max-width: 100%;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.element1 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.element2 {
+  display: inline-block;
+}
+/* ----- */
+
+/* JS SCROOL BUTTON */
+#myBtn {
+  background: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* ----- */
+
+/* ICON STYLING SECTION */
+/* dark background icons */
+.icon {
+  color: #f7f7f7 !important;
+}
+
+.icon:hover {
+  color: gray !important;
+  padding: none;
+}
+
+.icon-underline {
+  text-decoration: none;
+}
+
+.icon-underline:hover {
+  text-decoration: underline;
+}
+
+/* bright background icons */
+.icon-dark {
+  color: #292b2c;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+.icon-dark:hover {
+  color: gray;
+  transform: scale(0.7);
+  padding: none;
+}
+
+.icon-text-style {
+  color: #292b2c;
+  text-decoration: none;
+}
+/* ----- */
+
+/* CARD BOX SHADOWS */
+.box-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.box-shadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* ----- */
+
+/* Footer styles */
+
+.page-lower {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 700;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.ml-1 {
+  justify-content: center;
+}
+
+/* FRONT PAGE CARDS STYLING */
+.main-cards-styling1 {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-cards-styling2 {
+  font-family: "Poppins", sans-serif;
+  background-color: #0f4c81;
+  color: white;
+}
+
+.main-cards-styling3 {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(230, 229, 229);
+}
+
+.main-cards-styling4 {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.price {
+  font-family: "Poppins", sans-serif;
+  color: #0f4c81;
+  font-weight: 700;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dollar-sign {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.per-month {
+  color: black;
+  font-weight: 200;
+  font-size: 0.75rem;
+  align-self: flex-end;
+  margin-bottom: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* ----- */
+
+/* HERO TEXT STYLING */
+.hero-main-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2vw 2vh !important;
+  color: white;
+}
+.hero-secondary-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 2vw 2vh !important;
+  color: white;
+}
+/* ----- */
+
+/* CARD TEXT STYLING */
+.card-main-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2vw 2vh !important;
+}
+
+.card-secondary-text {
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c;
+  font-weight: 300;
+  font-size: 2vw 2vh !important;
+}
+/* ----- */
+
+/* PAGE TEXT STYLING */
+.page-main-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2vw 2vh !important;
+  color: #0f4c81;
+}
+.page-secondary-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2vw 2vh !important;
+}
+
+.page-muted-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1vw 1vh !important;
+  color: #6c6c6c;
+}
+
+/* ----- */
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+}
+
+.copyright {
+  padding-left: 10%;
+}
+
+.dino {
+  width: 15%;
+  padding-bottom: 3%;
+}
+
+.signature {
+  width: 90%;
+}
