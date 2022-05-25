@@ -10,9 +10,7 @@
                     </svg>
                 </button>
             </div>
-
             <span class="text-muted">© 2022 by Andrius Vaiskunas</span>
-
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex p-3">
                 <li class="ms-3">
                     <a class="text-muted" href="#"><i class="icon fa-brands fa-facebook-f" title="Facebook"></i></a>

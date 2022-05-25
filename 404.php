@@ -22,8 +22,6 @@ $hero = get_field('hero');
     </div>
 </div>
 
-
-
 <?php
 get_footer();
 ?>

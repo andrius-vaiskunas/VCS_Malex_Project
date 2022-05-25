@@ -28,8 +28,6 @@ $hero = get_field('hero');
             </div>
         </div>
     </div>
-
-
     <div class="pt-5">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -129,7 +127,6 @@ $hero = get_field('hero');
             </div>
         </div>
     </div>
-
     <div class="container px-4 py-5" id="custom-cards">
         <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
             <div class="col padding-0">
@@ -159,9 +156,6 @@ $hero = get_field('hero');
         </div>
     </div>
 </div>
-
-
-
 <div id="about" class=" pt-5">
     <div class="container">
         <p class="page-main-text pt-5">ABOUT US</p>
@@ -229,9 +223,6 @@ $hero = get_field('hero');
         </div>
     </div>
 </div>
-
-
-
 <div id="team" class=" pt-5">
     <div class="container">
         <p class="page-main-text pt-5">MEET OUR TEAM</p>
@@ -300,14 +291,11 @@ $hero = get_field('hero');
         </div>
     </div>
 </div>
-</div>
-
 <div id="plans" class=" pt-5">
     <div class="container pb-5">
         <p class="page-main-text pt-5">PRICE PLANS</p>
         <h3 class="page-secondary-text">Choose the Best Plan for You</h3>
     </div>
-    <!-- PLAN LEFT -->
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
             <div class="col">
@@ -366,8 +354,6 @@ $hero = get_field('hero');
                     </div>
                 </div>
             </div>
-
-            <!-- PLAN MIDDLE -->
             <div class="col">
                 <div class="card mb-4 box-shadow">
                     <div class="card-header py-3">
@@ -424,8 +410,6 @@ $hero = get_field('hero');
                     </div>
                 </div>
             </div>
-
-            <!-- PLAN RIGHT -->
             <div class="col">
                 <div class="card mb-4 box-shadow">
                     <div class="card-header py-3">
@@ -485,7 +469,6 @@ $hero = get_field('hero');
         </div>
     </div>
 </div>
-</div>
 <div id="news" class=" pt-5">
     <div class="container">
         <p class="page-main-text pt-5">NEW ARTICLES</p>
@@ -493,7 +476,6 @@ $hero = get_field('hero');
             Check Our Latest Blog Posts
         </h3>
     </div>
-
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col col col-xl-4">
@@ -563,7 +545,6 @@ $hero = get_field('hero');
         </div>
     </div>
 </div>
-</div>
 <div id="contacts" class=" pt-5">
     <div class="container">
         <div class="row">
@@ -600,7 +581,6 @@ $hero = get_field('hero');
                     </div>
                 </div>
             </div>
-
             <div class="col">
                 <div class="card mb-4 box-shadow">
                     <span class="px-4 pt-5 pb-3"><svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -621,7 +601,6 @@ $hero = get_field('hero');
                     </div>
                 </div>
             </div>
-
             <div class="col">
                 <div class="card mb-4 box-shadow mh-100">
                     <span class="px-4 pt-5 pb-3"><svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -647,7 +626,6 @@ $hero = get_field('hero');
             </div>
         </div>
     </div>
-
     <div class="container p-5">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         </div>
